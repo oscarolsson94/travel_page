@@ -7,8 +7,9 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            TRAVEL
+            TRAVEL <i className="fab fa-typo3" />
           </Link>
+          <div className="menu-icon"></div>
         </div>
       </nav>
     </>
