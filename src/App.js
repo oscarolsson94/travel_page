@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Hero from "./components/Hero";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Hero />
+            <Home />
           </Route>
         </Switch>
       </Router>
