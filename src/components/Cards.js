@@ -1,12 +1,15 @@
 import React from "react";
+import CardItem from "./CardItem";
 
 const Cards = () => {
   return (
     <div className="cards">
-      <h1>Check out out EPIC Destinations</h1>
+      <h1>Check out our EPIC Destinations</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          <ul className="cards__items"></ul>
+          <ul className="cards__items">
+            <CardItem />
+          </ul>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ const CardItem = () => {
             <img src="/" alt="Travel" className="cards__item__img" />
           </figure>
           <div className="cards__item__info">
-            <h5 className="cards__item__text"></h5>
+            <h5 className="cards__item__text">heading</h5>
           </div>
         </Link>
       </li>
