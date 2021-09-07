@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Footer = () => {
   return (
@@ -10,7 +11,17 @@ const Footer = () => {
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
         </p>
-        <div className="input-areas"></div>
+        <div className="input-areas">
+          <form>
+            <input
+              className="footer-input"
+              name="email"
+              type="email"
+              placeholder="Your Email"
+            />
+            <Button buttonStyle="btn--outline">Subscribe</Button>
+          </form>
+        </div>
       </section>
     </div>
   );
